@@ -26,8 +26,9 @@ Wniosek: model odpowiadał szybko, ale jego odpowiedzi wymagają sprawdzania.
 ## Dlaczego wybrałem model lokalny?
 Model uruchomiłem lokalnie, aby mieć większą kontrolę nad danymi. Testowane pytania były przetwarzane na moim komputerze, bez konieczności wysyłania ich do chmurowego modelu AI. Nie używałem w testach prawdziwych danych osobowych ani kluczy API.
 
+
 ## Bezpieczeństwo projektu
-Przed publikacją sprawdzę pliki i historię Git pod kątem kluczy API, haseł oraz danych osobowych. Przeprowadzę również przegląd skillem `przeglad-bezpieczenstwa` z lekcji 7.
+Przed publikacją przeprowadziłem przegląd bezpieczeństwa z użyciem skilla `przeglad-bezpieczenstwa` z lekcji 7. Sprawdziłem pięć plików przeznaczonych do publikacji. Dane w `opinie.txt` są przykładowymi danymi ćwiczeniowymi, a zawarta tam próba prompt injection została rozpoznana jako niezaufana instrukcja. Przegląd nie wskazał problemów blokujących publikację. Plik `.gitignore` wyklucza lokalne konfiguracje i typowe pliki zawierające sekrety.
 
 ## Wnioski
 Lokalny model AI może być przydatny do nauki i eksperymentów. Jego zaletą jest możliwość pracy na własnym komputerze, ale należy sprawdzać poprawność generowanych informacji.
