@@ -1,0 +1,25 @@
+# Klucze API i dane poufne
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*credentials*.json
+*secrets*.json
+
+# Zależności i pliki tymczasowe
+node_modules/
+*.log
+.tmp/
+tmp/
+
+# Pliki systemowe
+.DS_Store
+Thumbs.db
+
+# Lokalna konfiguracja edytora i narzędzi AI
+.vscode/
+.codex/
+.claude/
